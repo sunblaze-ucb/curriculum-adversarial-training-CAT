@@ -26,4 +26,4 @@ Sum total test accuracy from above per-sample statistics:
 python sumResults.py result_dirs
 ```
 
-## "models" are inherited from [here](https://github.com/kuangliu/pytorch-cifar).
+## "models" folder is inherited from [here](https://github.com/kuangliu/pytorch-cifar).
