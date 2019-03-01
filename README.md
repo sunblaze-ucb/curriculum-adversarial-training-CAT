@@ -19,11 +19,11 @@ python advtrain_all.py --args
 #### TESTING
 Get per-sample test results for each attack type and store them into files:
 ```
-python test_all_worstcaseacc.py ----model_dir ./checkpoint/*** --args
+python test_all_worstcaseacc.py --model_dir ./checkpoint/*** --args
 ```
 Sum total test accuracy from above per-sample statistics:
 ```
-python sumResults.py model_dirs
+python sumResults.py result_dirs
 ```
 
 ## "models" are inherited from [here](https://github.com/kuangliu/pytorch-cifar).

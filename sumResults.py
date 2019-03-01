@@ -2,12 +2,12 @@ from __future__ import division
 import sys, os
 import numpy as np
 
-model_dirs = sys.argv[1:]
+result_dirs = sys.argv[1:]
 
 # sum results
 results_folders = []
 def sumResults():
-    for md in model_dirs:
+    for md in result_dirs:
         if md[-1]=='/': md = md[:-1]
         print('md', md)
         if md[-7:]=='results':
