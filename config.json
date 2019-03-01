@@ -1,0 +1,8 @@
+{
+  "_comment": "===== TRAINING CONFIGURATION =====",
+  "np_random_seed": 216105420,
+  "training_batch_size": 200,
+
+  "_comment": "===== EVAL CONFIGURATION =====",
+  "eval_batch_size": 32
+}
